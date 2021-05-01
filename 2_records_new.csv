@@ -1,0 +1,437 @@
+﻿record_id,museum_id,sampling_point,locality,province,date,coordinates_x,coordinates_y,elevation,collector
+1,AES2208,Angas alto,Angas,Azuay,NA,689997,9679823,3949,"Cristian Villalta, Ervin Ramirez"
+2,AES2392,Tinajillas alto,Tinajillas,Morona Santiago,NA,761408,9667836,3146,"Cristian Villalta, Ervin Ramirez"
+3,AES2450,Tinajillas medio,Tinajillas,Morona Santiago,NA,768733,9666165,2195,"Cristian Villalta, Ervin Ramirez"
+4,AES2451,Tinajillas medio,Tinajillas,Morona Santiago,NA,768733,9666165,2195,"Cristian Villalta, Ervin Ramirez"
+5,AES2457,Tinajillas medio,Tinajillas,Morona Santiago,NA,768733,9666165,2195,"Cristian Villalta, Ervin Ramirez"
+6,AES2464,Tinajillas,Tinajillas,Morona Santiago,NA,761408,9667836,3146,"Cristian Villalta, Ervin Ramirez"
+7,AES2475,Angas alto,Angas,Azuay,NA,689997,9679823,3949,"Cristian Villalta, Ervin Ramirez"
+8,AES2516,Angas alto,Angas,Azuay,NA,689997,9679823,3949,"Cristian Villalta, Ervin Ramirez"
+9,AES2528,Angas alto,Angas,Azuay,NA,684889,9678786,3218,"Cristian Villalta, Ervin Ramirez"
+10,AES2539,Angas medio,Angas,Azuay,NA,684889,9678786,3218,"Cristian Villalta, Ervin Ramirez"
+11,AES2555,Angas alto,Angas,Azuay,NA,689997,9679823,3949,"Cristian Villalta, Ervin Ramirez"
+12,AES2557,Angas alto,Angas,Azuay,NA,684889,9678786,3218,"Cristian Villalta, Ervin Ramirez"
+13,KU218254,NA,NA,NA,NA,,,2997,
+14,MECN02505,Tapichalaca,Tapichalaca,Zamora Chinchipe,NA,NA,NA,NA,NA
+15,MECN10799,Chivaturco,Chivaturco,El Oro,NA,NA,NA,NA,NA
+16,MECN10810,Chivaturco,Chivaturco,El Oro,NA,NA,NA,NA,NA
+17,MECN10869,Cerro de Arcos,Cerro de Arcos,El Oro,11/25/2013,-3.564078,-79469494,3665,"Juan Carlos Sánchez, Paúl Alejandro Meza Ramos│Karem López│Edison Rea"
+18,MECN10870,Cerro de Arcos,Cerro de Arcos,El Oro,11/25/2013,-3.564078,-79469494,3665,"Juan Carlos Sánchez, Paúl Alejandro Meza Ramos│Karem López│Edison Rea"
+19,MECN10871,Cerro de Arcos,Cerro de Arcos,El Oro,11/25/2013,-3.564078,-79469494,3665,"Juan Carlos Sánchez, Paúl Alejandro Meza Ramos│Karem López│Edison Rea"
+20,MECN11388,La Enramada,La Enramada,El Oro,2/19/2014,-3.163184,-79.595633,2883,"Juan Carlos Sánchez, Karem López│Luis Alfredo Oyagata Cachimuel│Paúl Guerrero"
+21,MECN11389,La Enramada,La Enramada,El Oro,2/19/2014,-3.163184,-79.595633,2883,"Juan Carlos Sánchez, Karem López│Luis Alfredo Oyagata Cachimuel│Paúl Guerrero"
+22,MECN11393,La Enramada,La Enramada,El Oro,2/19/2014,-3.163184,-79.595633,2883,"Juan Carlos Sánchez, Karem López│Luis Alfredo Oyagata Cachimuel│Paúl Guerrero"
+23,MECN11394,La Enramada,La Enramada,El Oro,2/19/2014,-3.163184,-79.595633,2883,"Juan Carlos Sánchez, Karem López│Luis Alfredo Oyagata Cachimuel│Paúl Guerrero"
+24,MECN11395,La Enramada,La Enramada,El Oro,2/19/2014,-3.163184,-79.595633,2883,"Juan Carlos Sánchez, Karem López│Luis Alfredo Oyagata Cachimuel│Paúl Guerrero"
+25,MECN11396,La Enramada,La Enramada,El Oro,2/19/2014,-3.163184,-79.595633,2883,"Juan Carlos Sánchez, Karem López│Luis Alfredo Oyagata Cachimuel│Paúl Guerrero"
+26,MECN11398,La Enramada,La Enramada,El Oro,2/19/2014,-3.163184,-79.595633,2883,"Juan Carlos Sánchez, Karem López│Luis Alfredo Oyagata Cachimuel│Paúl Guerrero"
+27,MECN11963,Molleturo,Molleturo,Azuay,9/22/2013,-2.830066,-79.364369,3757,Estella Patricia Bejarano Muñoz
+28,MECN11964,Molleturo,Molleturo,Azuay,9/22/2013,-2.820367875,-79.38132737,3792,Estella Patricia Bejarano Muñoz
+29,MECN12214,Cerro Sambalan,Sangay,Morona Santiago,NA,-2.199138889,-78.44727778,3337,Jorge Brito
+30,MECN12219,Sangay,Sangay,Morona Santiago,NA,-2.392805556,-78.30480556,2576,Jorge Brito
+31,MECN12222,Sangay,Sangay,Morona Santiago,NA,-2.388944,-78.8645728,2382,Jorge Brito
+32,MECN12223,NA,NA,NA,NA,NA,NA,NA,NA
+33,MECN12232,Cerro Sambalan,Sangay,Morona Santiago,NA,NA,NA,3358,Jorge Brito
+34,MECN12235,Rio Blanco,Sangay,Morona Santiago,NA,"-2,198,888","-78,447,222",3337,Jorge Brito
+35,MECN12237,Rio Blanco,Sangay,Morona Santiago,NA,"-2,198,888","-78,447,222",3337,Jorge Brito
+36,MECN12239,Rio Blanco,Sangay,Morona Santiago,NA,"-2,198,888","-78,447,222",3337,Jorge Brito
+37,MECN12865,NA,NA,NA,NA,NA,NA,NA,NA
+38,MECN13062,Paquisha,Paquisha,Morona Santiago,NA,-3.910324,-78.5009,1740,Jorge Brito
+39,MECN13289,NA,NA,NA,NA,NA,NA,NA,NA
+40,MECN3112,Tapichalaca,Tapichalaca,Zamora Chinchipe,NA,NA,NA,2300,Mario Yanez
+41,MECN8177,Tapichalaca,Tapichalaca,Zamora Chinchipe,NA,NA,NA,2300,Mario Yanez
+42,MECN8184,Tapichalaca,Tapichalaca,Zamora Chinchipe,NA,NA,NA,2300,Mario Yanez
+43,MECN8185,Tapichalaca,Tapichalaca,Zamora Chinchipe,NA,NA,NA,2300,Mario Yanez
+44,MECN8186,Tapichalaca,Tapichalaca,Zamora Chinchipe,NA,NA,NA,2300,Mario Yanez
+45,MECN8187,Tapichalaca,Tapichalaca,Zamora Chinchipe,NA,NA,NA,2300,Mario Yanez
+46,MECN8188,Tapichalaca,Tapichalaca,Zamora Chinchipe,NA,NA,NA,2300,Mario Yanez
+47,MECN8189,Tapichalaca,Tapichalaca,Zamora Chinchipe,NA,NA,NA,2300,Mario Yanez
+48,MECN8190,Tapichalaca,Tapichalaca,Zamora Chinchipe,NA,NA,NA,2300,Mario Yanez
+49,MECN8192,Tapichalaca,Tapichalaca,Zamora Chinchipe,NA,NA,NA,2300,Mario Yanez
+50,MECN8193,Tapichalaca,Tapichalaca,Zamora Chinchipe,NA,NA,NA,2300,Mario Yanez
+51,MECN8194,Tapichalaca,Tapichalaca,Zamora Chinchipe,NA,NA,NA,2300,Mario Yanez
+52,MECN8195,Tapichalaca,Tapichalaca,Zamora Chinchipe,NA,NA,NA,2300,Mario Yanez
+53,MECN9656,Tapichalaca,Tapichalaca,Zamora Chinchipe,NA,NA,NA,2300,Mario Yanez
+54,MUTPL0403,Rio Blanco,Tapichalaca,Zamora Chinchipe,NA,NA,NA,2300,Mario Yanez
+55,MUTPL127,Cerro Toledo,Podocarpus,Loja,5/10/2016,-4.393341,-79.110389,3359,Paul Székely
+56,MUTPL136,Bosque Protector Washapamba,Bosque Protector Washapamba,Loja,5/30/2016,-3.658522,-79.269146,2923,Paul Székely
+57,MUTPL137,Bosque Protector Washapamba,Bosque Protector Washapamba,Loja,5/30/2016,-3.662531,-79.269388,2961,Paul Székely
+58,MUTPL141,Bosque Protector Washapamba,Bosque Protector Washapamba,Loja,5/30/2016,-3.662686,-79.269482,2964,Paul Székely
+59,MUTPL142,Bosque Protector Washapamba,Bosque Protector Washapamba,Loja,5/30/2016,-3.663558,-79.269103,3003,Paul Székely
+60,MUTPL149,Bosque Protector Washapamba,Bosque Protector Washapamba,Loja,6/30/2016,-3.663459,-79.269168,2995,Paul Székely
+61,MUTPL151,Bosque Protector Washapamba,Bosque Protector Washapamba,Loja,6/30/2016,-3.662938,-79.269371,2975,Paul Székely
+62,MUTPL157,Bosque Protector Washapamba,Bosque Protector Washapamba,Loja,6/30/2016,-3.663234,-79.269183,2985,Paul Székely
+63,MUTPL158,Bosque Protector Washapamba,Bosque Protector Washapamba,Loja,6/30/2016,-3.663234,-79.269183,2985,Paul Székely
+64,MUTPL160,Bosque Protector Washapamba,Bosque Protector Washapamba,Loja,6/30/2016,-3.663459,-79.269168,2995,Paul Székely
+65,MUTPL161,Bosque Protector Washapamba,Bosque Protector Washapamba,Loja,6/30/2016,-3.660126,-79.268816,2933,Paul Székely
+66,MUTPL162,Bosque Protector Washapamba,Bosque Protector Washapamba,Loja,6/30/2016,-3.660126,-79.268816,2933,Paul Székely
+67,MUTPL163,Bosque Protector Washapamba,Bosque Protector Washapamba,Loja,6/30/2016,-3.662938,-79.269371,2975,Paul Székely
+68,MUTPL165,Bosque Protector Washapamba,Bosque Protector Washapamba,Loja,6/30/2016,-3.662339,-79.26929,2953,Paul Székely
+69,MUTPL166,Bosque Protector Washapamba,Bosque Protector Washapamba,Loja,6/30/2016,-3.662531,-79.269388,2961,Paul Székely
+70,MUTPL173,Bosque Protector Washapamba,Bosque Protector Washapamba,Loja,6/30/2016,-3.663558,-79.269103,3003,Paul Székely
+71,MUTPL174,Quebrada Las Violetas,Quebrada Las Violetas,Loja,7/6/2016,-4.044433,-79.203552,2181,Paul Székely
+72,MUTPL193,Reserva Ecológica El Madrigal,Reserva Ecológica El Madrigal,Loja,2/17/2017,-4.052367,-79.165693,2494,Paul Székely
+73,MUTPL195,Reserva Ecológica El Madrigal,Reserva Ecológica El Madrigal,Loja,2/17/2017,-4.05159,-79.168392,2471,Paul Székely
+74,MUTPL206,Via antigua Loja-Zamora,Via antigua Loja-Zamora,Loja,5/15/2017,-3.979775,-79.139959,2675,Paul Székely
+75,MUTPL239,Via Urdaneta - Tutupali,Via Urdaneta - Tutupali,Loja,7/8/2016,-3.586123,-79.075161,3300,Paul Székely
+76,MUTPL242,Via Urdaneta - Tutupali,Via Urdaneta - Tutupali,Loja,7/9/2016,-3.591531,-79.135874,2960,Paul Székely
+77,MUTPL247,Via Urdaneta - Tutupali,Via Urdaneta - Tutupali,Loja,7/23/2016,-3.585543,-79.113231,3108,Paul Székely
+78,MUTPL248,Via Urdaneta - Tutupali,Via Urdaneta - Tutupali,Loja,8/4/2016,-3.591532,-79.135785,2959,Paul Székely
+79,MUTPL249,Via Urdaneta - Tutupali,Via Urdaneta - Tutupali,Loja,8/4/2016,-3.591532,-79.135785,2959,Paul Székely
+80,MUTPL258,Cerro de Arcos,Cerro de Arcos,Loja,7/22/2017,-3.568893,-79.432758,3338,Paul Székely
+81,MUTPL259,Cerro de Arcos,Cerro de Arcos,Loja,7/22/2017,-3.568985,-79.432711,3337,Paul Székely
+82,MUTPL296,El Tiro,Parque Nacional Podocarpus ,Loja,12/23/2017,-3.991379,-79.145144,2789,Paul Székely
+83,MUTPL298,Yacuri,Parque Nacional Yacuri,Loja,12/27/2017,-4.70305,-79.449059,2933,Paul Székely
+84,MUTPL311,El Tiro,Parque Nacional Podocarpus ,Loja,12/23/2017,-3.991085,-79.145912,2822,Paul Székely
+85,MUTPL353,Cajanuma,Parque Nacional Podocarpus ,Loja,6/28/2018,-4.11771,-79.165816,3042,Paul Székely
+86,MUTPL357,Cajanuma,Parque Nacional Podocarpus ,Loja,6/28/2018,-4.115103,-79.165138,3258,Paul Székely
+87,MUTPL362,Cajanuma,Parque Nacional Podocarpus ,Loja,6/29/2018,-4.114094,-79.162698,3361,Paul Székely
+88,MUTPL363,Cajanuma,Parque Nacional Podocarpus ,Loja,6/29/2018,-4.117758,-79.165675,3059,Paul Székely
+89,MUTPL365,Cajanuma,Parque Nacional Podocarpus ,Loja,7/19/2018,-3.991175,-79.146035,2817,Paul Székely
+90,MUTPL366,El Tiro,Parque Nacional Podocarpus ,Loja,7/19/2018,-3.991175,-79.146035,2817,Paul Székely
+91,MUTPL388,El Tiro,Parque Nacional Podocarpus ,Loja,8/30/2018,-3.985156,-79.144718,2805,Paul Székely
+92,MUTPL394,El Tiro,Parque Nacional Podocarpus ,Loja,5/31/2018,-3.991043,-79.145495,2815,Paul Székely
+,MUTPL403,,,,,,,1850,
+92,MUTPL492,Cajanuma,Parque Nacional Podocarpus ,Loja,11/11/2018,-4.112744,-79.176872,2975,Paul Székely
+93,MUTPL496,El Tiro,Parque Nacional Podocarpus ,Loja,11/13/2018,-3.992017,-79.145416,2808,Paul Székely
+94,MUTPL517,Cerro Toledo,Parque Nacional Podocarpus ,Loja,11/19/2018,-4.374162,-79.11064,3132,"Paul Székely, Diana Székely"
+95,MUTPL581,Cajanuma,Parque Nacional Podocarpus ,Loja,1/5/2019,-4.11670301,-79.169729,2855,"Paul Székely, Diana Székely"
+96,MUTPL587,Cajanuma,Parque Nacional Podocarpus ,Loja,1/5/2019,-4.11682396,-79.16781499,2957,"Paul Székely, Diana Székely"
+97,MZUA0262,Maylas,Maylas,Azuay,11/16/2012,758959,9666435,3280,Juan Carlos Sánchez/Elvis Celi P/Valentina Posse
+98,MZUA0320,Saucay,Saucay,Azuay,12/26/2011,720711,9695412,3136,Juan Carlos Sánchez
+99,MZUA0344,Labrados,Labrados,Azuay,12/9/2011,719005,9696932,3400,Juan Carlos Sánchez
+100,MZUA0368,Cumbe,Cumbe,Azuay,NA,720348,9658817,2742,Juan Carlos Sánchez
+101,MZUA0397,Luspa,Parque Nacional Cajas,Azuay,3/6/2013,694171,9690019,3819,Juan Carlos Sánchez/Elvis Celi P
+102,MZUA0416,Atugyacu,Atugyacu,Azuay,1/12/2012,687370,9688268,3821,Juan Carlos Sánchez/Elvis Celi P
+103,MZUA0420,NA,Atugyacu,Azuay,1/12/2012,687370,9688268,3821,Juan Carlos Sánchez/Elvis Celi P
+104,MZUA0447,San Juan Bosco,San Juan Bosco,Morona Santiago,3/1/2014,773642,9655561,1173,Elvis Celi P 
+105,MZUA0490,Matadero,Matadero,Azuay,5/25/2012,696302,9695023,4132,Juan Carlos Sánchez/Elvis Celi P
+106,MZUA0530,Haciendo Gullan,La Paz,Azuay,5/18/2013,697677,9627836,2979,Juan Carlos Sánchez/Elvis Celi P/Valentina Posse
+107,MZUA0531,Haciendo Gullan,La Paz,Azuay,5/18/2013,697677,9627836,2979,Juan Carlos Sánchez/Elvis Celi P/Valentina Posse
+108,MZUA0538,Haciendo Gullan,La Paz,Azuay,5/18/2013,697677,9627836,2979,Juan Carlos Sánchez/Elvis Celi P/Valentina Posse
+109,MZUA0543,Haciendo Gullan,La Paz,Azuay,5/9/2013,697677,9627836,2979,Juana Ochoa
+110,MZUA0558,Maylas,Maylas,Azuay,7/7/2013,760567,9668734,3437,Verónica L. Urgilés/Cristian Nieves
+111,MZUA0668,Maylas,Maylas,Azuay,10/3/2013,760527,9668673,3455,Verónica L. Urgilés/Cristian Nieves
+112,MZUA0695,Tinajillas,Tinajillas,Morona Santiago,10/9/2013,767900,9665760,2304,Verónica L. Urgilés/Cristian Nieves
+113,MZUA0700,Maylas,Maylas,Morona Santiago,10/8/2013,759724,9667244,3519,Verónica L. Urgilés/Cristian Nieves
+114,MZUA0718,Tinajillas,Tinajillas,Morona Santiago,10/9/2013,767900,9665760,2304,Verónica L. Urgilés/Cristian Nieves
+115,MZUA0726,Tinajillas,Tinajillas,Morona Santiago,10/9/2013,767683,9665569,2394,Verónica L. Urgilés/Cristian Nieves
+116,MZUA0729,Maylas,Maylas,Azuay,10/8/2013,759724,9667244,3519,Verónica L. Urgilés/Cristian Nieves
+117,MZUA0730,Tinajillas,Tinajillas,Morona Santiago,10/9/2013,767683,9665569,2394,Verónica L. Urgilés/Cristian Nieves
+118,MZUA0735,Tinajillas,Tinajillas,Morona Santiago,10/9/2013,767683,9665569,2394,Verónica L. Urgilés/Cristian Nieves
+119,MZUA0740,Tinajillas,Tinajillas,Morona Santiago,10/9/2013,767683,9665569,2394,Verónica L. Urgilés/Cristian Nieves
+120,MZUA0742,Tinajillas,Tinajillas,Morona Santiago,10/10/2013,767766,9664943,2246,Verónica L. Urgilés/Cristian Nieves
+121,MZUA0772,Tinajillas,Tinajillas,Morona Santiago,11/6/2013,777286,9667126,1997,Verónica L. Urgilés/Cristian Nieves
+122,MZUA0784,Haciendo Gullan,La Paz,Azuay,5/18/2013,697677,9627836,2979,Verónica L. Urgilés
+123,MZUA0795,Haciendo Gullan,La Paz,Azuay,5/18/2013,697677,9627836,2979,Verónica L. Urgilés
+124,MZUA0797,Haciendo Gullan,La Paz,Azuay,5/18/2013,697677,9627836,2979,Verónica L. Urgilés
+125,MZUA0841,Quimsacocha,Quimsacocha,Azuay,6/1/2013,696612,9660966,3779,Juan Carlos Sánchez/Verónica L. Urgilés
+126,MZUA0843,Quimsacocha,Quimsacocha,Azuay,6/1/2013,696612,9660966,3779,Juan Carlos Sánchez/Verónica L. Urgilés
+127,MZUA0844,Quimsacocha,Quimsacocha,Azuay,6/1/2013,696612,9660966,3779,Juan Carlos Sánchez/Verónica L. Urgilés
+128,MZUA0850,Quimsacocha,Quimsacocha,Azuay,6/1/2013,696612,9660966,3779,Juan Carlos Sánchez/Verónica L. Urgilés
+129,MZUA0851,Quimsacocha,Quimsacocha,Azuay,6/1/2013,696612,9660966,3779,Juan Carlos Sánchez/Verónica L. Urgilés
+130,MZUA0868,Tinajillas,Tinajillas,Morona Santiago,1/8/2014,761492,9667478,3222,Juan Carlos Sánchez/Verónica L. Urgilés
+131,MZUA0874,Tinajillas,Tinajillas,Morona Santiago,1/8/2014,761069,9667833,3204,Verónica L. Urgilés/Cristian Nieves
+132,MZUA0929,Tinajillas,Tinajillas,Morona Santiago,1/29/2014,765734,9666675,2647,Verónica L. Urgilés/Cristian Nieves
+133,MZUA0935,Tinajillas,Tinajillas,Morona Santiago,1/29/2014,765734,9666675,2647,Juan Carlos Sánchez/Verónica L. Urgilés/Cristian Nieves 
+134,MZUA0940,Tinajillas,Tinajillas,Morona Santiago,1/29/2014,765734,9666675,2647,Juan Carlos Sánchez/Verónica L. Urgilés/Cristian Nieves 
+135,MZUA0942,Tinajillas,Tinajillas,Morona Santiago,1/29/2014,765689,9666708,2723,Juan Carlos Sánchez/Verónica L. Urgilés/Cristian Nieves 
+136,MZUA0943,Tinajillas,Tinajillas,Morona Santiago,1/29/2014,765611,9666755,2715,Juan Carlos Sánchez/Verónica L. Urgilés/Cristian Nieves 
+137,MZUA0947,Tinajillas,Tinajillas,Morona Santiago,1/29/2014,765734,9666675,2647,Verónica L. Urgilés/Cristian Nieves
+138,MZUA0951,Tinajillas,Tinajillas,Morona Santiago,1/29/2014,765611,9666755,2715,Juan Carlos Sánchez/Verónica L. Urgilés/Cristian Nieves 
+139,MZUA0955,Tinajillas,Tinajillas,Morona Santiago,1/29/2014,764859,9666896,2796,Juan Carlos Sánchez/Verónica L. Urgilés/Cristian Nieves 
+140,MZUA0959,Tinajillas,Tinajillas,Morona Santiago,1/29/2014,765068,9666823,2773,Juan Carlos Sánchez/Verónica L. Urgilés/Cristian Nieves 
+141,MZUA0961,Tinajillas,Tinajillas,Morona Santiago,1/29/2014,765819,9666692,2716,Juan Carlos Sánchez/Verónica L. Urgilés/Cristian Nieves 
+142,MZUA1114,Tinajillas,Tinajillas,Morona Santiago,1/8/2014,761492,9667478,3222,Verónica L. Urgilés/Cristian Nieves
+143,MZUA1118,Tinajillas,Tinajillas,Morona Santiago,3/9/2014,767766,9664943,2246,Verónica L. Urgilés/Cristian Nieves
+144,MZUA1134,Tinajillas,Tinajillas,Morona Santiago,3/9/2014,767479,9664850,2264,Verónica L. Urgilés/Cristian Nieves
+145,MZUA1143,Aguarongo,Aguarongo,Azuay,,739805,9677826,3000,Juan Carlos Sánchez/Gabriela Delgado
+146,MZUA1147,Aguarongo,Aguarongo,Azuay,,739805,9677826,3000,Juan Carlos Sánchez/Gabriela Delgado
+147,MZUA1149,Aguarongo,Aguarongo,Azuay,,739805,9677826,3000,Juan Carlos Sánchez/Gabriela Delgado
+148,MZUA1154,Aguarongo,Aguarongo,Azuay,,739805,9677826,3000,Juan Carlos Sánchez/Gabriela Delgado
+149,MZUA1157,Aguarongo,Aguarongo,Azuay,,739805,9677826,3000,Juan Carlos Sánchez/Gabriela Delgado
+150,MZUA1159,Aguarongo,Aguarongo,Azuay,,739805,9677826,3000,Juan Carlos Sánchez/Gabriela Delgado
+151,MZUA1163,Aguarongo,Aguarongo,Azuay,,739805,9677826,3000,Juan Carlos Sánchez/Gabriela Delgado
+152,MZUA1165,Aguarongo,Aguarongo,Azuay,,739805,9677826,3000,Juan Carlos Sánchez/Gabriela Delgado
+153,MZUA1172,Aguarongo,Aguarongo,Azuay,,739805,9677826,3000,Juan Carlos Sánchez/Gabriela Delgado
+154,MZUA1174,Maylas,Maylas,Azuay,5/3/2014,760441,9668520,3452,Verónica L. Urgilés/Cristian Nieves
+155,MZUA1175,Maylas,Maylas,Azuay,5/3/2014,760425,9668433,3449,Verónica L. Urgilés/Cristian Nieves
+156,MZUA1179,Maylas,Maylas,Azuay,5/3/2014,760425,9668433,3449,Verónica L. Urgilés/Cristian Nieves
+157,MZUA1181,Maylas,Maylas,Azuay,5/3/2014,760425,9668433,3449,Verónica L. Urgilés/Cristian Nieves
+158,MZUA1183,Maylas,Maylas,Azuay,5/3/2014,760425,9668433,3449,Verónica L. Urgilés/Cristian Nieves
+159,MZUA1185,Maylas,Maylas,Azuay,5/3/2014,760425,9668433,3449,Verónica L. Urgilés/Cristian Nieves
+160,MZUA1186,Tinajillas,Tinajillas,Morona Santiago,5/3/2014,760527,9668673,3455,Verónica L. Urgilés/Cristian Nieves
+161,MZUA1194,Aguarongo,Aguarongo,Azuay,,739805,9677826,3000,Juan Carlos Sánchez/Gabriela Delgado
+162,MZUA1195,Aguarongo,Aguarongo,Azuay,,739805,9677826,3000,Juan Carlos Sánchez/Gabriela Delgado
+163,MZUA1333,Migüir,Migüir,Azuay,9/22/2014,686301,9691460,3446,Juan Carlos Sánchez/Verónica L. Urgilés/Elvis Celi P/Valentina Posse
+164,MZUA1338,Chanlud,Chanlud,Azuay,9/17/2014,686225,9690926,3602,Juan Carlos Sánchez/Elvis Celi P/Valentina Posse/Verónica L. Urgilés/Cristian Nieves
+165,MZUA1357,Migüir,Migüir,Azuay,10/29/2014,686301,9691460,3446,Juan Carlos Sánchez/Elvis Celi P/Valentina Posse/Verónica L. Urgilés/Cristian Nieves
+166,MZUA1367,Migüir,Migüir,Azuay,10/28/2014,686277,9691767,3549,Juan Carlos Sánchez/Elvis Celi P/Valentina Posse/Verónica L. Urgilés/Cristian Nieves
+167,MZUA1368,Migüir,Migüir,Azuay,10/28/2014,686277,9691767,3549,Juan Carlos Sánchez/Elvis Celi P/Valentina Posse/Verónica L. Urgilés/Cristian Nieves
+168,MZUA1370,Migüir,Migüir,Azuay,10/28/2014,686346,9691839,3610,Juan Carlos Sánchez/Elvis Celi P/Valentina Posse/Verónica L. Urgilés/Cristian Nieves
+169,MZUA1371,Migüir,Migüir,Azuay,10/28/2014,686324,9692060,3731,Juan Carlos Sánchez/Elvis Celi P/Valentina Posse/Verónica L. Urgilés/Cristian Nieves
+170,MZUA1373,Migüir,Migüir,Azuay,10/28/2014,686324,9692060,3731,Juan Carlos Sánchez/Elvis Celi P/Valentina Posse/Verónica L. Urgilés/Cristian Nieves
+171,MZUA1374,Migüir,Migüir,Azuay,10/27/2014,686309,9691294,3475,Juan Carlos Sánchez/Elvis Celi P/Valentina Posse/Verónica L. Urgilés/Cristian Nieves
+172,MZUA1376,Migüir,Migüir,Azuay,10/27/2014,686309,9691294,3475,Juan Carlos Sánchez/Elvis Celi P/Valentina Posse/Verónica L. Urgilés/Cristian Nieves
+173,MZUA1383,Migüir,Migüir,Azuay,10/30/2014,686153,9691016,3495,Juan Carlos Sánchez/Elvis Celi P/Valentina Posse/Verónica L. Urgilés/Cristian Nieves
+174,MZUA1390,Migüir,Migüir,Azuay,10/30/2014,686465,9690870,3690,Juan Carlos Sánchez/Elvis Celi P/Valentina Posse/Verónica L. Urgilés/Cristian Nieves
+175,MZUA1397,Chanlud,Chanlud,Azuay,11/25/2014,686309,9691294,3475,Juan Carlos Sánchez/Elvis Celi P/Valentina Posse/Verónica L. Urgilés
+176,MZUA1398,Chanlud,Chanlud,Azuay,11/25/2014,686309,9691294,3475,Juan Carlos Sánchez/Elvis Celi P/Valentina Posse/Verónica L. Urgilés
+177,MZUA1399,Migüir,Migüir,Azuay,11/25/2014,686309,9691294,3475,Juan Carlos Sánchez/Elvis Celi P/Valentina Posse/Verónica L. Urgilés/Cristian Nieves
+178,MZUA1416,Migüir,Migüir,Azuay,11/27/2014,686301,9691460,3446,Juan Carlos Sánchez/Elvis Celi P/Valentina Posse/Verónica L. Urgilés/Cristian Nieves
+179,MZUA1446,Migüir,Migüir,Azuay,1/20/2015,686466,9691105,3606,Juan Carlos Sánchez/Elvis Celi P/Valentina Posse/Verónica L. Urgilés/Cristian Nieves
+180,MZUA1485,Maylas,Maylas,Azuay,9/17/2015,759178,9667675,3376,Juan Carlos Sánchez/Verónica L. Urgilés/Bruno Timbe/Sebastian Padrón/Cristian Maldonado
+181,MZUA1632,Uchucay,Collay,Azuay,2/25/2016,755355,9678785,3334,Juan Carlos Sánchez /Belén Moya /Alba Costa
+182,MZUA1748,Rivera-Zhoray,Rivera-Zhoray,Cañar,10/29/2016,763446,9718269,2699,Juan Carlos Sánchez/Eduardo Toral/Juan Manuel Guayasamin/Verónica L. Urgilés
+183,MZUA1759,Quimsacocha,Quimsacocha,Azuay,12/15/2016,699050,9665030,3752,Juan Carlos Sánchez/Verónica L. Urgilés/Amanda Quezada
+184,MZUA1761,Quimsacocha,Quimsacocha,Azuay,12/15/2016,699050,9665030,3752,Juan Carlos Sánchez/Verónica L. Urgilés/Amanda Quezada
+185,MZUA1763,Quimsacocha,Quimsacocha,Azuay,12/15/2016,699249,9661368,3709,Juan Carlos Sánchez/Verónica L. Urgilés/Amanda Quezada
+186,MZUA1765,Quimsacocha,Quimsacocha,Azuay,12/15/2016,699249,9661368,3709,Juan Carlos Sánchez/Verónica L. Urgilés/Amanda Quezada
+187,MZUA1815,Quimsacocha,Quimsacocha,Azuay,12/22/2016,714370,9681092,2680,Fausto Siavichay
+188,MZUA1819,Haciendo Gullan,La Paz,Azuay,1/5/2017,703368,9630398,2938,Verónica L. Urgilés/Karla Neira
+189,MZUA1820,Haciendo Gullan,La Paz,Azuay,1/5/2017,703368,9630398,2938,Verónica L. Urgilés/Karla Neira
+190,MZUA1843,"Mingar, Dudas","Mingar, Dudas",Cañar,1/9/2017,755201,9710962,3254,Juan C. Sánchez/Verónica L. Urgilés/Remigio Orellana/Santiago Marquina
+191,MZUA1851,"Mingar, Dudas","Mingar, Dudas",Cañar,1/9/2017,755201,9710962,3254,Juan C. Sánchez/Verónica L. Urgilés/Remigio Orellana/Santiago Marquina
+192,MZUA1857,"Mingar, Dudas","Mingar, Dudas",Cañar,1/9/2017,755201,9710962,3254,Juan C. Sánchez/Verónica L. Urgilés/Remigio Orellana/Santiago Marquina
+193,MZUA1859,"Mingar, Dudas","Mingar, Dudas",Cañar,1/9/2017,755201,9710962,3254,Juan C. Sánchez/Verónica L. Urgilés/Remigio Orellana/Santiago Marquina
+194,MZUA1862,"Mingar, Dudas","Mingar, Dudas",Cañar,1/9/2017,755201,9710962,3254,Juan C. Sánchez/Verónica L. Urgilés/Remigio Orellana/Santiago Marquina
+195,MZUA1865,Monay,Monay,Cañar,2/23/2017,764841,9719884,3348,Juan Carlos Sánchez/Verónica L. Urgilés/Bruno Timbe/Amanda Quezada
+196,MZUA1865,Monay,Monay,Cañar,2/23/2017,764841,9719884,3348,Juan Carlos Sánchez/Verónica L. Urgilés/Bruno Timbe/Amanda Quezada
+197,MZUA1866,Monay,Monay,Cañar,2/23/2017,764841,9719884,3348,Juan Carlos Sánchez/Verónica L. Urgilés/Bruno Timbe/Amanda Quezada
+198,MZUA1871,Guangras,Guangras,Cañar,2/15/2017,766355,9724394,2773,Juan Carlos Sánchez/Bruno Timbe/Amanda Quezada
+199,MZUA1874,Guangras,Guangras,Cañar,2/15/2017,766355,9724394,2773,Juan Carlos Sánchez/Bruno Timbe/Amanda Quezada
+200,MZUA1878,Guangras,Guangras,Cañar,2/15/2017,766355,9724394,2773,Juan Carlos Sánchez/Bruno Timbe/Amanda Quezada
+201,MZUA1881,Guangras,Guangras,Cañar,2/15/2017,766355,9724394,2773,Juan Carlos Sánchez/Bruno Timbe/Amanda Quezada
+202,MZUA1882,Guangras,Guangras,Cañar,2/15/2017,766355,9724394,2773,Juan Carlos Sánchez/Bruno Timbe/Amanda Quezada
+203,MZUA1885,Guangras,Guangras,Cañar,2/15/2017,766355,9724394,2773,Juan Carlos Sánchez/Bruno Timbe/Amanda Quezada
+204,MZUA1891,Guangras,Guangras,Cañar,2/15/2017,766355,9724394,2773,Juan Carlos Sánchez/Bruno Timbe/Amanda Quezada
+205,MZUA1894,Guangras,Guangras,Cañar,2/15/2017,766355,9724394,2773,Juan Carlos Sánchez/Bruno Timbe/Amanda Quezada
+206,MZUA1898,Guangras,Guangras,Cañar,2/15/2017,766355,9724394,2773,Juan Carlos Sánchez/Bruno Timbe/Amanda Quezada
+207,MZUA1899,Guangras,Guangras,Cañar,2/15/2017,766355,9724394,2773,Juan Carlos Sánchez/Bruno Timbe/Amanda Quezada
+208,MZUA1900,Guangras,Guangras,Cañar,2/15/2017,766355,9724394,2773,Juan Carlos Sánchez/Bruno Timbe/Amanda Quezada
+209,MZUA1901,Guangras,Guangras,Cañar,2/15/2017,766355,9724394,2773,Juan Carlos Sánchez/Bruno Timbe/Amanda Quezada
+210,MZUA1904,Monay,Monay,Cañar,2/23/2017,764841,9719884,3348,Juan Carlos Sánchez/Verónica L. Urgilés/Bruno Timbe/Amanda Quezada
+211,MZUA1907,Monay,Monay,Cañar,2/23/2017,764841,9719884,3348,Juan Carlos Sánchez/Verónica L. Urgilés/Bruno Timbe/Amanda Quezada
+212,MZUA1908,Monay,Monay,Cañar,2/23/2017,764841,9719884,3348,Juan Carlos Sánchez/Verónica L. Urgilés/Bruno Timbe/Amanda Quezada
+213,MZUA1909,Monay,Monay,Cañar,2/23/2017,764841,9719884,3348,Juan Carlos Sánchez/Verónica L. Urgilés/Bruno Timbe/Amanda Quezada
+214,MZUA1911,Monay,Monay,Cañar,2/23/2017,764841,9719884,3348,Juan Carlos Sánchez/Verónica L. Urgilés/Bruno Timbe/Amanda Quezada
+215,MZUA1912,Monay,Monay,Cañar,2/23/2017,764841,9719884,3348,Juan Carlos Sánchez/Verónica L. Urgilés/Bruno Timbe/Amanda Quezada
+216,MZUA1915,Monay,Monay,Cañar,2/23/2017,764841,9719884,3348,Juan Carlos Sánchez/Verónica L. Urgilés/Bruno Timbe/Amanda Quezada
+217,MZUA1920,Monay,Monay,Cañar,2/23/2017,764841,9719884,3348,Juan Carlos Sánchez/Verónica L. Urgilés/Bruno Timbe/Amanda Quezada
+218,MZUA1926,Monay,Monay,Cañar,2/23/2017,764841,9719884,3348,Juan Carlos Sánchez/Verónica L. Urgilés/Bruno Timbe/Amanda Quezada
+219,MZUA1929,Monay,Monay,Cañar,2/23/2017,764841,9719884,3348,Juan Carlos Sánchez/Verónica L. Urgilés/Bruno Timbe/Amanda Quezada
+220,MZUA1933,Monay,Monay,Cañar,2/23/2017,764841,9719884,3348,Juan Carlos Sánchez/Verónica L. Urgilés/Bruno Timbe/Amanda Quezada
+221,MZUA1935,Monay,Monay,Cañar,2/23/2017,764841,9719884,3348,Juan Carlos Sánchez/Verónica L. Urgilés/Bruno Timbe/Amanda Quezada
+222,MZUA1939,Monay,Monay,Cañar,2/23/2017,764841,9719884,3348,Juan Carlos Sánchez/Verónica L. Urgilés/Bruno Timbe/Amanda Quezada
+223,MZUA1948,Rivera-Zhoray,Rivera-Zhoray,Cañar,4/8/2017,761787,9717534,2928,Juan Carlos Sánchez/Verónica L. Urgilés/Amanda Quezada/Bruno Timbe/Jhonny Cedeño
+224,MZUA1949,Rivera-Zhoray,Rivera-Zhoray,Cañar,4/8/2017,761787,9717534,2928,Juan Carlos Sánchez/Verónica L. Urgilés/Amanda Quezada/Bruno Timbe/Jhonny Cedeño
+225,MZUA1952,Rivera-Zhoray,Rivera-Zhoray,Cañar,4/8/2017,761787,9717534,2928,Juan Carlos Sánchez/Verónica L. Urgilés/Amanda Quezada/Bruno Timbe/Jhonny Cedeño
+226,MZUA1954,Rivera-Zhoray,Rivera-Zhoray,Cañar,4/8/2017,761787,9717534,2928,Juan Carlos Sánchez/Verónica L. Urgilés/Amanda Quezada/Bruno Timbe/Jhonny Cedeño
+227,MZUA1957,Rivera-Zhoray,Rivera-Zhoray,Cañar,4/8/2017,761787,9717534,2928,Juan Carlos Sánchez/Verónica L. Urgilés/Amanda Quezada/Bruno Timbe/Jhonny Cedeño
+228,MZUA1958,Rivera-Zhoray,Rivera-Zhoray,Cañar,4/8/2017,761787,9717534,2928,Juan Carlos Sánchez/Verónica L. Urgilés/Amanda Quezada/Bruno Timbe/Jhonny Cedeño
+229,MZUA1959,Rivera-Zhoray,Rivera-Zhoray,Cañar,4/8/2017,761787,9717534,2928,Juan Carlos Sánchez/Verónica L. Urgilés/Amanda Quezada/Bruno Timbe/Jhonny Cedeño
+230,MZUA1960,Rivera-Zhoray,Rivera-Zhoray,Cañar,4/8/2017,761787,9717534,2928,Juan Carlos Sánchez/Verónica L. Urgilés/Amanda Quezada/Bruno Timbe/Jhonny Cedeño
+231,MZUA1963,Rivera-Zhoray,Rivera-Zhoray,Cañar,4/8/2017,761787,9717534,2928,Juan Carlos Sánchez/Verónica L. Urgilés/Amanda Quezada/Bruno Timbe/Jhonny Cedeño
+232,MZUA1967,Rivera-Zhoray,Rivera-Zhoray,Cañar,4/8/2017,761787,9717534,2928,Juan Carlos Sánchez/Verónica L. Urgilés/Amanda Quezada/Bruno Timbe/Jhonny Cedeño
+233,MZUA1968,Rivera-Zhoray,Rivera-Zhoray,Cañar,4/8/2017,761787,9717534,2928,Juan Carlos Sánchez/Verónica L. Urgilés/Amanda Quezada/Bruno Timbe/Jhonny Cedeño
+234,MZUA1970,Rivera-Zhoray,Rivera-Zhoray,Cañar,4/8/2017,761787,9717534,2928,Juan Carlos Sánchez/Verónica L. Urgilés/Amanda Quezada/Bruno Timbe/Jhonny Cedeño
+235,MZUA1974,Rivera-Zhoray,Rivera-Zhoray,Cañar,4/8/2017,761787,9717534,2928,Juan Carlos Sánchez/Verónica L. Urgilés/Amanda Quezada/Bruno Timbe/Jhonny Cedeño
+236,MZUA1975,Rivera-Zhoray,Rivera-Zhoray,Cañar,4/8/2017,761787,9717534,2928,Juan Carlos Sánchez/Verónica L. Urgilés/Amanda Quezada/Bruno Timbe/Jhonny Cedeño
+237,MZUA1979,Rivera-Zhoray,Rivera-Zhoray,Cañar,4/8/2017,761787,9717534,2928,Juan Carlos Sánchez/Verónica L. Urgilés/Amanda Quezada/Bruno Timbe/Jhonny Cedeño
+238,MZUA2037,Puente de piedra,Puente de piedra,Morona Santiago,7/5/2017,767833,9691540,2646,Juan Carlos Sánchez/Amanda Quezada
+239,MZUA2043,Puente de piedra,Puente de piedra,Morona Santiago,7/5/2017,767833,9691540,2646,Juan Carlos Sánchez/Amanda Quezada
+240,MZUA2049,Puente de piedra,Puente de piedra,Morona Santiago,7/5/2017,767833,9691540,2646,Juan Carlos Sánchez/Amanda Quezada
+241,MZUA2058,Puente de piedra,Puente de piedra,Morona Santiago,7/5/2017,767833,9691540,2646,Juan Carlos Sánchez/Amanda Quezada
+242,MZUA2059,Puente de piedra,Puente de piedra,Morona Santiago,7/5/2017,767833,9691540,2646,Juan Carlos Sánchez/Amanda Quezada
+243,MZUA2066,Puente de piedra,Puente de piedra,Morona Santiago,7/5/2017,767833,9691540,2646,Juan Carlos Sánchez/Amanda Quezada
+244,MZUA2099,Puente de piedra,Puente de piedra,Morona Santiago,7/5/2017,767833,9691540,2646,Juan Carlos Sánchez/Amanda Quezada
+245,MZUA2175,Hcda. Montesinos,Saymirín,Azuay,10/10/2017,722349,9697220,3278,Juan Carlos Sánchez/Amanda Quezada
+246,MZUA2222,Molobog,Molobog,Cañar,12/15/2017, 741130,9706386,3355,Karla Neira
+247,MZUA2236,Laguna de Busa,San Fernando,Azuay,1/2/2018,692671,9650858,2845,Verónica L. Urgilés/Sabrina Tapia
+248,MZUA2266, Bermejos,Quimsacocha,Azuay,4/7/2018,697658,9664359,3817,Valentina Posse/Bruno Timbe
+249,MZUA2269, Bermejos,Quimsacocha,Azuay,4/7/2018,697658,9664359,3817,Valentina Posse/Bruno Timbe
+250,MZUA2280,Galgal,Parque Nacional Cajas,Azuay,4/9/2018,691729,9673158,3707,Valentina Posse/Bruno Timbe
+251,MZUA2281,Galgal,Parque Nacional Cajas,Azuay,4/9/2018,691729,9673158,3707,Valentina Posse/Bruno Timbe
+252,MZUA2283,Galgal,Parque Nacional Cajas,Azuay,4/9/2018,691729,9673158,3707,Valentina Posse/Bruno Timbe
+253,MZUA2362,Ishcayrrumi,Cuenca,Azuay,4/25/2018,693380,9679525,3816,Valentina Posse/Bruno Timbe
+254,MZUA2369,Miguir,Cuenca,Azuay,5/8/2018,694412,9690599,3852,Valentina Posse/Bruno Timbe
+255,MZUA2391,Cerro Cabogana,Cerro Cabogana,Azuay,5/16/2018,714981,9685016,3023,Veronica L. Urgiles/Anna Savage/ Juan Carlos Sanchez/Amanda Quezada/Bruno Timbe
+256,MZUA2392,Cerro Cabogana,Cerro Cabogana,Azuay,5/16/2018,714981,9685016,3023,Veronica L. Urgiles/Anna Savage/ Juan Carlos Sanchez/Amanda Quezada/Bruno Timbe
+257,MZUA2393,Cerro Cabogana,Cerro Cabogana,Azuay,5/16/2018,714981,9685016,3023,Veronica L. Urgiles/Anna Savage/ Juan Carlos Sanchez/Amanda Quezada/Bruno Timbe
+258,MZUA2394,Cerro Cabogana,Cerro Cabogana,Azuay,5/16/2018,714981,9685016,3023,Veronica L. Urgiles/Anna Savage/ Juan Carlos Sanchez/Amanda Quezada/Bruno Timbe
+259,MZUA2396,Cerro Cabogana,Cerro Cabogana,Azuay,5/16/2018,714981,9685016,3023,Veronica L. Urgiles/Anna Savage/ Juan Carlos Sanchez/Amanda Quezada/Bruno Timbe
+260,MZUA2405,Cerro Cabogana,Cerro Cabogana,Azuay,5/16/2018,714981,9685016,3023,Veronica L. Urgiles/Anna Savage/ Juan Carlos Sanchez/Amanda Quezada/Bruno Timbe
+261,MZUA2407,Cerro Cabogana,Cerro Cabogana,Azuay,5/16/2018,714981,9685016,3023,Veronica L. Urgiles/Anna Savage/ Juan Carlos Sanchez/Amanda Quezada/Bruno Timbe
+262,MZUA2411,Angas,Parque Nacional Cajas,Azuay,5/16/2018,714981,9685016,3023,Veronica L. Urgiles/Anna Savage/ Juan Carlos Sanchez/Amanda Quezada/Bruno Timbe
+263,MZUA2412,Angas,Parque Nacional Cajas,Azuay,5/20/2018,693237,9679116,3796,Veronica L. Urgiles/Anna Savage/ Juan Carlos Sanchez/Amanda Quezada
+264,MZUA2423,Angas,Parque Nacional Cajas,Azuay,5/20/2018,693237,9679116,3796,Veronica L. Urgiles/Anna Savage/ Juan Carlos Sanchez/Amanda Quezada
+265,MZUA2425,Angas,Parque Nacional Cajas,Azuay,5/20/2018,693237,9679116,3796,Veronica L. Urgiles/Anna Savage/ Juan Carlos Sanchez/Amanda Quezada
+266,MZUA2426,Angas,Parque Nacional Cajas,Azuay,5/20/2018,693237,9679116,3796,Veronica L. Urgiles/Anna Savage/ Juan Carlos Sanchez/Amanda Quezada
+267,MZUA2429,Angas,Parque Nacional Cajas,Azuay,5/20/2018,693237,9679116,3796,Veronica L. Urgiles/Anna Savage/ Juan Carlos Sanchez/Amanda Quezada
+268,MZUA2430,Angas,Parque Nacional Cajas,Azuay,5/20/2018,693237,9679116,3796,Veronica L. Urgiles/Anna Savage/ Juan Carlos Sanchez/Amanda Quezada
+269,MZUA2434,Angas,Parque Nacional Cajas,Azuay,5/20/2018,693237,9679116,3796,Veronica L. Urgiles/Anna Savage/ Juan Carlos Sanchez/Amanda Quezada
+270,MZUA2435,Angas,Parque Nacional Cajas,Azuay,5/20/2018,693237,9679116,3796,Veronica L. Urgiles/Anna Savage/ Juan Carlos Sanchez/Amanda Quezada
+271,MZUA2441,Angas,Parque Nacional Cajas,Azuay,5/20/2018,693237,9679116,3796,Veronica L. Urgiles/Anna Savage/ Juan Carlos Sanchez/Amanda Quezada
+272,MZUA2445,Churuco,Churuco,Azuay,5/26/2018,-3.167949138,-78.81997229,2984,Veronica L. Urgiles/Anna Savage
+273,MZUA2447,Churuco,Churuco,Azuay,5/26/2018,-3.167949138,-78.81997229,2984,Veronica L. Urgiles/Anna Savage
+274,MZUA2448,Churuco,Churuco,Azuay,5/26/2018,-3.167949138,-78.81997229,2984,Veronica L. Urgiles/Anna Savage
+275,MZUA2453,Churuco,Churuco,Azuay,5/26/2018,-3.167949138,-78.81997229,2984,Veronica L. Urgiles/Anna Savage
+276,MZUA2463,Churuco,Churuco,Azuay,5/26/2018,-3.167949138,-78.81997229,2984,Veronica L. Urgiles/Anna Savage
+277,MZUA2465,Churuco,Churuco,Azuay,5/26/2018,-3.167949138,-78.81997229,2984,Veronica L. Urgiles/Anna Savage
+278,MZUA2466,Churuco,Churuco,Azuay,5/26/2018,-3.167949138,-78.81997229,2984,Veronica L. Urgiles/Anna Savage
+279,MZUA2468,Churuco,Churuco,Azuay,5/26/2018,-3.167949138,-78.81997229,2984,Veronica L. Urgiles/Anna Savage
+280,MZUA2490,Camino viejo,Camino viejo,Loja,5/30/2018,706238,9559070,2764,Veronica L. Urgiles/Anna Savage/Paul Slekely/Diana Slekely
+281,MZUA2493,Urdaneta,Urdaneta,Loja,5/30/2018,358693,7907597,3291,Veronica L. Urgiles/Anna Savage/Paul Slekely/Diana Slekely
+282,MZUA2495,Urdaneta,Urdaneta,Loja,5/30/2018,358693,7907597,3291,Veronica L. Urgiles/Anna Savage/Paul Slekely/Diana Slekely
+283,MZUA2498,Urdaneta,Urdaneta,Loja,5/30/2018,358693,7907597,3291,Veronica L. Urgiles/Anna Savage/Paul Slekely/Diana Slekely
+284,MZUA2499,Urdaneta,Urdaneta,Loja,5/30/2018,358693,7907597,3291,Veronica L. Urgiles/Anna Savage/Paul Slekely/Diana Slekely
+285,MZUA2502,Urdaneta,Urdaneta,Loja,5/30/2018,358693,7907597,3291,Veronica L. Urgiles/Anna Savage/Paul Slekely/Diana Slekely
+286,MZUA2503,Urdaneta,Urdaneta,Loja,5/30/2018,358693,7907597,3291,Veronica L. Urgiles/Anna Savage/Paul Slekely/Diana Slekely
+287,MZUA2504,Urdaneta,Urdaneta,Loja,5/30/2018,358693,7907597,3291,Veronica L. Urgiles/Anna Savage/Paul Slekely/Diana Slekely
+288,MZUA2506,Urdaneta,Urdaneta,Loja,5/30/2018,358693,7907597,3291,Veronica L. Urgiles/Anna Savage/Paul Slekely/Diana Slekely
+289,MZUA2508,Urdaneta,Urdaneta,Loja,5/30/2018,358693,7907597,3291,Veronica L. Urgiles/Anna Savage/Paul Slekely/Diana Slekely
+290,MZUA2510,Tapichalaca,Tapichalaca,Zamora Chinchipe,5/30/2018,,,,Veronica L. Urgiles/Anna Savage/Paul Slekely/Diana Slekely
+291,MZUA2513,Camino viejo,Camino viejo,Loja,5/30/2018,706238,9559070,2764,Veronica L. Urgiles/Anna Savage/Paul Slekely/Diana Slekely
+292,MZUA2539,Bermejos,Quimsacocha,Azuay,6/8/2018,697341,9664583,3820,Valentina Posse/Bruno Timbe
+293,MZUA2547,Bermejos,Quimsacocha,Azuay,6/8/2018,697341,9664583,3820,Valentina Posse/Bruno Timbe
+294,MZUA2549,Bermejos,Quimsacocha,Azuay,6/8/2018,697341,9664583,3820,Valentina Posse/Bruno Timbe
+295,MZUA2555,Labrados,Labrados,Azuay,6/14/2018,-2.740301278,-79.03000836,3400,Amanda Quezada/Juan Carlos Sanchez/Veronica L. Urgiles
+296,MZUA2564,Labrados,Labrados,Azuay,6/14/2018,-2.740301278,-79.03000836,3400,Amanda Quezada/Juan Carlos Sanchez/Veronica L. Urgiles
+297,MZUA2570,Labrados,Labrados,Azuay,6/14/2018,-2.740301278,-79.03000836,3400,Amanda Quezada/Juan Carlos Sanchez/Veronica L. Urgiles
+298,MZUA2572,Labrados,Labrados,Azuay,6/14/2018,-2.740301278,-79.03000836,3400,Amanda Quezada/Juan Carlos Sanchez/Veronica L. Urgiles
+299,MZUA2576,Labrados,Labrados,Azuay,6/14/2018,-2.740301278,-79.03000836,3400,Amanda Quezada/Juan Carlos Sanchez/Veronica L. Urgiles
+300,MZUA2578,Labrados,Labrados,Azuay,6/14/2018,-2.740301278,-79.03000836,3400,Amanda Quezada/Juan Carlos Sanchez/Veronica L. Urgiles
+301,MZUA2580,Labrados,Labrados,Azuay,6/14/2018,-2.740301278,-79.03000836,3400,Amanda Quezada/Juan Carlos Sanchez/Veronica L. Urgiles
+302,MZUA2583,Labrados,Labrados,Azuay,6/14/2018,-2.740301278,-79.03000836,3400,Amanda Quezada/Juan Carlos Sanchez/Veronica L. Urgiles
+303,MZUA2585,Labrados,Labrados,Azuay,6/14/2018,-2.740301278,-79.03000836,3400,Amanda Quezada/Juan Carlos Sanchez/Veronica L. Urgiles
+304,MZUA2589,Labrados,Labrados,Azuay,6/14/2018,-2.740301278,-79.03000836,3400,Amanda Quezada/Juan Carlos Sanchez/Veronica L. Urgiles
+305,MZUA2590,Labrados,Labrados,Azuay,6/14/2018,-2.740301278,-79.03000836,3400,Amanda Quezada/Juan Carlos Sanchez/Veronica L. Urgiles
+306,MZUA2591,Labrados,Labrados,Azuay,6/14/2018,-2.740301278,-79.03000836,3400,Amanda Quezada/Juan Carlos Sanchez/Veronica L. Urgiles
+307,MZUA2595,Labrados,Labrados,Azuay,6/14/2018,-2.740301278,-79.03000836,3400,Amanda Quezada/Juan Carlos Sanchez/Veronica L. Urgiles
+308,MZUA2616,Narancay,Bosque de Sun-Sun,Azuay,6/30/2018,714413,9674820,2987,Veronica L. Urgiles/Sabrina Tapia
+309,MZUA2617,Narancay,Bosque de Sun-Sun,Azuay,6/30/2018,714413,9674820,2987,Veronica L. Urgiles/Sabrina Tapia
+310,MZUA2674,Jima,Jima,Azuay,7/15/2018,-3.173739336,-79.02332444,3375,Verónica Urgilés/Juan Carlos Sánchez/Amanda Quezada/Paz Guillén
+311,MZUA2677,Jima,Jima,Azuay,7/15/2018,-3.173739336,-79.02332444,3375,Verónica Urgilés/Juan Carlos Sánchez/Amanda Quezada/Paz Guillén
+312,MZUA2680,Jima,Jima,Azuay,7/15/2018,-3.173739336,-79.02332444,3375,Verónica Urgilés/Juan Carlos Sánchez/Amanda Quezada/Paz Guillén
+313,MZUA2682,Jima,Jima,Azuay,7/15/2018,-3.173739336,-79.02332444,3375,Verónica Urgilés/Juan Carlos Sánchez/Amanda Quezada/Paz Guillén
+314,MZUA2685,Jima,Jima,Azuay,7/15/2018,-3.173739336,-79.02332444,3375,Verónica Urgilés/Juan Carlos Sánchez/Amanda Quezada/Paz Guillén
+315,MZUA2687,Jima,Jima,Azuay,7/15/2018,-3.173739336,-79.02332444,3375,Verónica Urgilés/Juan Carlos Sánchez/Amanda Quezada/Paz Guillén
+316,MZUA2691,Jima,Jima,Azuay,7/15/2018,-3.173739336,-79.02332444,3375,Verónica Urgilés/Juan Carlos Sánchez/Amanda Quezada/Paz Guillén
+317,MZUA2692,Jima,Jima,Azuay,7/15/2018,-3.173739336,-79.02332444,3375,Verónica Urgilés/Juan Carlos Sánchez/Amanda Quezada/Paz Guillén
+318,MZUA2700,Miguir,Miguir,Azuay,7/15/2018,694412,9690599,3852,Bruno Timbe/Ramiro Jiménez/Valentina Posse
+319,MZUA2701,Miguir,Miguir,Azuay,7/15/2018,694412,9690599,3852,Bruno Timbe/Ramiro Jiménez/Valentina Posse
+320,MZUA2703,Llavircay,Llavircay,Cañar,7/19/2018,-2.5637,-78.5957,2830,Juan Carlos Sánchez/Amanda Quezada/Jhonny Cedeño/XXXX
+321,MZUA2705,Llavircay,Llavircay,Cañar,7/19/2018,-2.5637,-78.5957,2830,Juan Carlos Sánchez/Amanda Quezada/Jhonny Cedeño/XXXX
+322,MZUA2706,Llavircay,Llavircay,Cañar,7/19/2018,-2.5637,-78.5957,2830,Juan Carlos Sánchez/Amanda Quezada/Jhonny Cedeño/XXXX
+323,MZUA2707,Llavircay,Llavircay,Cañar,7/19/2018,-2.5637,-78.5957,2830,Juan Carlos Sánchez/Amanda Quezada/Jhonny Cedeño/XXXX
+324,MZUA2711,Llavircay,Llavircay,Cañar,7/19/2018,-2.5637,-78.5957,2830,Juan Carlos Sánchez/Amanda Quezada/Jhonny Cedeño/XXXX
+325,MZUA2715,Llavircay,Llavircay,Cañar,7/19/2018,-2.5637,-78.5957,2830,Juan Carlos Sánchez/Amanda Quezada/Jhonny Cedeño/XXXX
+326,MZUA2721,Quimsacocha,Quimsacocha,Azuay,7/22/2018,698753,9663671,3640,Bruno Timbe/Ramiro Jiménez/Valentina Posse
+327,MZUA2732,Angas,Angas,Azuay,7/18/2018,684995,9678930,3233,Cristian Villalta/Ervin Ramírez
+328,MZUA2735,Angas,Angas,Azuay,7/18/2018,684995,9678930,3233,Cristian Villalta/Ervin Ramírez
+329,MZUA2736,Angas,Angas,Azuay,7/18/2018,684995,9678930,3233,Cristian Villalta/Ervin Ramírez
+330,MZUA2739,Angas,Angas,Azuay,7/18/2018,684995,9678930,3233,Cristian Villalta/Ervin Ramírez
+331,MZUA2741,Angas,Angas,Azuay,7/18/2018,684995,9678930,3233,Cristian Villalta/Ervin Ramírez
+332,MZUA2744,Angas,Angas,Azuay,7/18/2018,684995,9678930,3233,Cristian Villalta/Ervin Ramírez
+333,MZUA2745,Angas,Angas,Azuay,7/18/2018,684995,9678930,3233,Cristian Villalta/Ervin Ramírez
+334,MZUA2748,Monay,Monay,Cañar,7/25/2018,,,,Juan Carlos Sánchez/Amanda Quezada/Jhonny Cedeño/Homero Abad/Benjamín/Mateo
+335,MZUA2749,Angas,Angas,Azuay,8/3/2018,684995,9678930,3233,Cristian Villalta/Ervin Ramírez
+336,MZUA2750,Angas,Angas,Azuay,8/3/2018,684995,9678930,3233,Cristian Villalta/Ervin Ramírez
+337,MZUA2751,Angas,Angas,Azuay,8/3/2018,684995,9678930,3233,Cristian Villalta/Ervin Ramírez
+338,MZUA2756,Angas,Angas,Azuay,8/3/2018,684995,9678930,3233,Cristian Villalta/Ervin Ramírez
+339,MZUA2757,Angas,Angas,Azuay,8/3/2018,684995,9678930,3233,Cristian Villalta/Ervin Ramírez
+340,MZUA2758,Angas,Angas,Azuay,8/3/2018,684995,9678930,3233,Cristian Villalta/Ervin Ramírez
+341,MZUA2902,NA,NA,NA,NA,NA,NA,NA,NA
+342,MZUA2992,Saucay,Saucay,Azuay,NA,-2.754019102,-79.01464603,3136,Amanda Quezada
+343,MZUA2995,Saucay,Saucay,Azuay,NA,-2.754019102,-79.01464603,3136,Amanda Quezada
+344,MZUA0363,Cumbe,Cumbe,Azuay,NA,720348,9658817,2742,Juan Carlos Sánchez
+345,MZUA0365,Cumbe,Cumbe,Azuay,NA,720348,9658817,2742,Juan Carlos Sánchez
+346,QCAZ23927,El Ideal,Sigisig-Gualaquiza,Morona Santiago,NA,-3.183059,-78.79605,3525,NA
+347,QCAZ26325,Loja-Zamora,Loja-Zamora,Zamora Chinchipe,NA,-3.989879,-3.989879,2800,NA
+348,QCAZ27480,Rumiloma,Mazar,Canar,NA,-2.574616,-78.74546,3400,NA
+349,QCAZ27559,La Libertad,Mazar,Canar,2/26/2004,NA,NA,NA,NA
+350,QCAZ27563,mazar,mazar,Canar,NA,-2.546589,-78.69837,2895,NA
+351,QCAZ27607,mazar,mazar,Canar,NA,9718295,755931,2895,NA
+352,QCAZ31460,Fierro Urco,Fierro Urco,Loja,NA,-3.710421,-79.30498,3439,NA
+353,QCAZ35378,Tapichalaca,Tapichalaca,Zamora Chinchipe,NA,-4484149,-7914875,2697,NA
+354,QCAZ37543,Parque Nacional Cajas,Parque Nacional Cajas,Azuay,NA,-2.74105,-79.23479,4092,NA
+355,QCAZ37666,Banos,Banos,Azuay,NA,-2.9218,-79.06444,3331,NA
+356,QCAZ40586,Sangay,Sangay,Azuay,NA,-2.202386,-78.46967,2972,NA
+357,QCAZ43024,Giron,Quimsacocha,Azuay,9/6/2008,-2.90798,-79.28347,3766,NA
+358,QCAZ45096,Chillacocha,Chillacocha,El Oro,NA,-3.50427,-79.61714,3250,NA
+359,QCAZ45132,Chillacocha,Chillacocha,El Oro,8/18/2009,-3.51086,-79.61469,3163,NA
+360,QCAZ45142,Chillacocha,Chillacocha,El Oro,8/18/2009,-3.51086,-79.61469,3163,NA
+361,QCAZ45192,Chaucha,Cuenca,Azuay,8/24/2009,-2.861209, -79.37869,2900,NA
+362,QCAZ45290,Patococha,Patococha,Azuay,8/28/2009,-3.12,-79.07299,3650,NA
+363,QCAZ45520,Cajanuma,Parque Nacional Podocarpus,Loja,9/17/2009,-4.11613,-79.17233,2812,Elicio Tapia
+364,QCAZ45527,Parque Nacional Podocarpus,Parque Nacional Podocarpus,Loja,9/17/2009,-4.11613,-79.17233,2812,Elicio Tapia
+365,QCAZ45531,Cajanuma,Parque Nacional Podocarpus,Loja,9/17/2009,-4.11613,-79.17233,2812,Elicio Tapia
+,QCAZ45534,,,,,,,2812,
+366,QCAZ45543,NA,NA,NA,NA,NA,NA,NA,NA
+367,QCAZ45544,NA,NA,NA,NA,NA,NA,NA,NA
+368,QCAZ45548,NA,NA,NA,NA,NA,NA,NA,NA
+369,QCAZ45556,NA,NA,NA,NA,NA,NA,NA,NA
+370,QCAZ45582,NA,NA,NA,NA,NA,NA,NA,NA
+371,QCAZ45601,NA,NA,NA,NA,NA,NA,NA,NA
+372,QCAZ45622,NA,NA,NA,NA,NA,NA,NA,NA
+373,QCAZ45652,NA,NA,NA,NA,NA,NA,NA,NA
+374,QCAZ45672,NA,NA,NA,NA,NA,NA,NA,NA
+375,QCAZ45675,NA,NA,NA,NA,NA,NA,NA,NA
+376,QCAZ46705,NA,NA,NA,NA,NA,NA,NA,NA
+377,QCAZ46708,NA,NA,NA,NA,NA,NA,NA,NA
+378,QCAZ46740,NA,NA,NA,NA,NA,NA,NA,NA
+379,QCAZ46743,NA,NA,NA,NA,NA,NA,NA,NA
+380,QCAZ46744,NA,NA,NA,NA,NA,NA,2896,NA
+381,QCAZ46990,NA,NA,NA,NA,NA,NA,NA,NA
+382,QCAZ47594,NA,NA,NA,NA,NA,NA,NA,NA
+383,QCAZ47632,NA,NA,NA,NA,NA,NA,NA,NA
+384,QCAZ52867,NA,NA,NA,NA,NA,NA,NA,NA
+385,QCAZ53741,NA,NA,NA,NA,NA,NA,NA,NA
+386,QCAZ53744,NA,NA,NA,NA,NA,NA,NA,NA
+387,QCAZ54345,NA,NA,NA,NA,NA,NA,NA,NA
+388,QCAZ56444,NA,NA,NA,NA,NA,NA,NA,NA
+389,QCAZ56449,NA,NA,NA,NA,NA,NA,NA,NA
+390,QCAZ56535,NA,NA,NA,NA,NA,NA,NA,NA
+391,QCAZ56539,NA,NA,NA,NA,NA,NA,NA,NA
+392,QCAZ56567,NA,NA,NA,NA,NA,NA,NA,NA
+393,QCAZ57202,NA,NA,NA,NA,NA,NA,NA,NA
+394,QCAZ57204,NA,NA,NA,NA,NA,NA,NA,NA
+395,QCAZ61039,NA,NA,NA,NA,NA,NA,NA,NA
+396,QCAZ61117,NA,NA,NA,NA,NA,NA,NA,NA
+397,QCAZ61127,NA,NA,NA,NA,NA,NA,NA,NA
+398,QCAZ61128,NA,NA,NA,NA,NA,NA,NA,NA
+399,QCAZ61137,NA,NA,NA,NA,NA,NA,NA,NA
+400,QCAZ61139,NA,NA,NA,NA,NA,NA,3106,NA
+401,QCAZ61152,NA,NA,NA,NA,NA,NA,NA,NA
+402,QCAZ61153,NA,NA,NA,NA,NA,NA,NA,NA
+403,QCAZ61154,NA,NA,NA,NA,NA,NA,NA,NA
+404,QCAZ61155,NA,NA,NA,NA,NA,NA,NA,NA
+405,QCAZ61156,NA,NA,NA,NA,NA,NA,2597,NA
+406,QCAZ61234,NA,NA,NA,NA,NA,NA,NA,NA
+407,QCAZ61235,NA,NA,NA,NA,NA,NA,NA,NA
+408,QCAZ61259,NA,NA,NA,NA,NA,NA,NA,NA
+409,QCAZ62013,NA,NA,NA,NA,NA,NA,NA,NA
+410,QCAZ63637,NA,NA,NA,NA,NA,NA,NA,NA
+411,QCAZ63640,NA,NA,NA,NA,NA,NA,NA,NA
+412,QCAZ63641,NA,NA,NA,NA,NA,NA,NA,NA
+413,QCAZ63642,NA,NA,NA,NA,NA,NA,NA,NA
+414,QCAZ63665,NA,NA,NA,NA,NA,NA,NA,NA
+415,QCAZ64890,NA,NA,NA,NA,NA,NA,NA,NA
+416,QCAZ64895,NA,NA,NA,NA,NA,NA,NA,NA
+417,QCAZ65018,NA,NA,NA,NA,NA,NA,NA,NA
+,QCAZ65022,,,,,,,2024,
+418,QCAZ65022,NA,NA,NA,NA,NA,NA,NA,NA
+419,QCAZ65137,NA,NA,NA,NA,NA,NA,NA,NA
+420,QCAZ65196,NA,NA,NA,NA,NA,NA,NA,NA
+421,QCAZ65220,NA,NA,NA,NA,NA,NA,NA,NA
+422,QCAZ68126,NA,NA,NA,NA,NA,NA,NA,NA
+423,QCAZ68159,NA,NA,NA,NA,NA,NA,NA,NA
+424,QCAZ68160,NA,NA,NA,NA,NA,NA,NA,NA
+425,QCAZ68331,NA,NA,NA,NA,NA,NA,NA,NA
+426,VLU391,NA,"Portete de Tarqui, Duraznos",Azuay,29/12/2 017, 704151,9659163,3379,Verónica L. Urgilés/Amanda Quezada/Regina Deleg
+427,VLU397,NA,"Portete de Tarqui, Duraznos",Azuay,29/12/2 017, 704151,9659163,3379,Verónica L. Urgilés/Amanda Quezada/Regina Deleg
+428,VLU392,NA,"Portete de Tarqui, Duraznos",Azuay,29/12/2 017, 704151,9659163,3379,Verónica L. Urgilés/Amanda Quezada/Regina Deleg
+429,VLU394,NA,"Portete de Tarqui, Duraznos",Azuay,29/12/2 017, 704151,9659163,3379,Verónica L. Urgilés/Amanda Quezada/Regina Deleg
+430,PROV12,,,,,,,,
+431,PROV13,,,,,,,2597,
+432,MEPN14737,,,,,,,,

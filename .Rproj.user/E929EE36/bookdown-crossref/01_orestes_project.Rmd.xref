@@ -1,0 +1,21 @@
+h1:pristis Data overview and database construction
+fig:plot1 Map of southern Ecuador, showing some representative members of the *P. orestes* group
+h2:the-data The data
+h2:data-base-structure Data base structure
+fig:plot2 Data base structure
+h3:table-1-general-information Table 1 General information
+h3:table-2-records Table 2 Records
+h3:table-3-molecular-data Table 3 Molecular data
+fig:plot3 Multigene phylogenetic tree of *Pristimantis orestes*
+h3:table-4-natural-history Table 4 Natural history
+h3:table-5-morphometrics Table 5 Morphometrics
+h1:systematics-of-pristimantis-in-the-ecuadorean-andes Systematics of Pristimantis in the ecuadorean Andes
+fig:Fig3 Gene fragments amplified from collected individuals
+fig:tree Fragment of the phylogeny of P. orestes 
+h1:distribution-of-pristimantis-across-ecosystems Distribution of Pristimantis across ecosystems
+fig:plot  Species distribuited by ecosystem. The ecosystems names follow the original nomenclature of MAE (2012) 
+fig:plot4 Reconstructed phylogeny of the average elevation in the P. orestes group
+h1:phenotypic-variation-across-enviromental-gradients Phenotypic variation across enviromental gradients
+fig:hand FDW/HANDL ratio
+fig:elev Correlation between FDW/HANDL ratios and elevation
+

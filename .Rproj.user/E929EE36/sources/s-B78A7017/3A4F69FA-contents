@@ -1,0 +1,474 @@
+
+library(ape); #The Swiss army knife of comparative phylogenetics R packages
+library(geiger); #A package for "macroevolutionary simulation and estimating parameters related to diversification"
+library(phytools); #Very useful for visualization particularly, great blog support
+library(RColorBrewer); # Accessory package with better color
+library(plotrix); #Contains a useful way of producing a color legend
+library(ggplot2)
+library(Biostrings)
+library(dplyr)
+
+#to install safely ggtree and treeio in new R version
+
+#if (!requireNamespace("BiocManager", quietly = TRUE))
+#  install.packages("BiocManager")
+#BiocManager::install("ggtree")
+#BiocManager::install("ggtree")
+
+#if (!requireNamespace("BiocManager", quietly = TRUE))
+# install.packages("BiocManager")
+
+#BiocManager::install("treeio")
+#BiocManager::install("phyloseq")
+#BiocManager::install("ggjoy")
+#BiocManager::install("tidytree")
+#BiocManager::install("OUwie")
+BiocManager::install("diversitree")
+
+library(ggtree)
+library(treeio)
+library(phyloseq)
+library(ggjoy)
+library(tidytree)
+library(OUwie)
+library(diversitree)
+
+#install.packages("remotes")
+#remotes::install_github("fmichonneau/phyloch")
+library(phyloch)
+
+
+
+
+
+
+
+
+#####Reading phylogeny with only one individual per species 
+
+mltree_sp <- read.nexus("mb_orestes_final.nexus")
+str(mltree_sp)
+plot(mltree_sp) 
+nodelabels(frame = "n")  
+
+droptree <- ggtree(mltree_sp, ladderize = FALSE) + geom_tiplab(cex=7) + geom_text(aes(label=node, cex=7))
+drop<- c("MZUA947", "MECN12219", "1908", "QCAZ63665", "QCAZ61154", "QCAZ63641", "QCAZ63640", "QCAZ62013",
+         "QCAZ61235", "QCAZ61152", "MZUA2514", 'MUTPL394', "MUTPL366", "MUTPL362", "MZUA955", "MZUA940",
+         "MZUA2747", "MZUA1865", "MUTPL42775", "QCAZ65018", "QCAZ65196", "QCAZ61234", "QCAZ65220",
+         "MEPN14722", "QCAZ56449","MUTPL47607", "MUTPL47603", "MUTPL47602", "QCAZ45096", "MUTPL47328", 
+         "MECN10871", "MUTPL353", "QCAZ53744", "MUTPL158", "MUTPL160", "MUTPL157", "MUTPL581", "MUTPL42758", 
+         "MZUA2499", "MUTPL496", "MUTPL517", "MUTPL363", "QCAZ45672", "MUTPL47589", "QCAZ54345", "QCAZ45527",
+         "QCAZ45531", "QCAZ45520", "MZUA2513", "MUTPL47734", "MUTPL47632", "MUTPL47628", "MUTPL47708",
+         "MUTPL47710", "QCAZ53741", "MUTPL163", "MUTPL162", "MUTPL161", "MUTPL151", "QCAZ45661", "MUTPL149",
+         "QCAZ57204", "QCAZ57202", "QCAZ52867", "MZUA2493", "MZUA2488", "MUTPL249", "MUTPL248", "MZUA1820",
+         "QCAZ37666", "MZUA543", "MZUA1157", "MZUA1159", "QCAZ27480", "MZUA2222", "MZUA1149", "MZUA1195", 
+         "MZUA1165", "MZUA1174", "MZUA1143", "MZUA1144", "KU218257", "MZUA2405", "VLU392", "VLU394", "VLU391",
+         "MZUA2995", "MZUA2570", "MZUA2555", "MZUA2407", "MZUA2394", "MZUA2572", "MZUA2393", "MZUA1771", 
+         "MZUA1760", "MZUA850", "MZUA2691", "MZUA2682", "MZUA2466", "MZUA2453", "MZUA2448", "MZUA2447", 
+         "MZUA1632", "MZUA1181", "QCAZ56535", "MZUA1174", "MZUA668", "MZUA1186", "MZUA1179", "MZUA1172", 
+         "QCAZ45285", "MZUA1175", "MZUA729", "PROV13", "PROV12", "MZUA2049", "MZUA2099", "MZUA2037", "MZUA1909",
+         "QCAZ27607", "MZUA1904", "MZUA2221", "MZUA1975", "QCAZ27572", "MZUA1952", "MZUA1859", "MZUA1857",
+         "QCAZ27563", "MZUA2492", "MZUA1854", "QCAZ42554", "MECN12214", "VLU397", "MZUA2617", "MZUA2616", 
+         "MZUA2715", "QCAZ46708", "MZUA2707", "QCAZ68126", "MZUA2703", "MZUA797", "MZUA795", "MZUA793", 
+         "MECN11389", "MECN11395", "MECN11389", "MZUA843", "MZUA1765", "MZUA841", "MECN11964", "MECN11363", 
+         "QCAZ45192", "AES2539", "AES2528", "MZUA1900", "MZUA2705", "MZUA1878", "MZUA1748", "QCAZ40586", 
+         "MZUA1399", "MZUA1416", "MZUA1390", "MZUA1368", "QCAZ46990", "MZUA1374", "MZUA1383", "MZUA1369", 
+         "MZUA1367", "QCAZ64902", "QCAZ56567", "QCAZ61259", "MUTPL357",  "MUTPL247", "QCAZ37543", "MZUA1398", 
+         "MZUA2721", "MZUA2547", "MZUA2283", "AES2516", "MZUA2280", "MZUA1333", "MZUA2281", "AES2475", "MECN11398", "MZUA1908", 
+         "MZUA1147",  "MZUA2491", "MUTPL47631", "MUTPL365")
+
+updated_tree <- drop.tip(mltree_sp, drop)
+
+plot(updated_tree)
+
+droptree <- ggtree(updated_tree, ladderize = FALSE) + geom_tiplab(cex=7) + geom_text(aes(label=node, cex=7))
+
+####leaving just one 
+
+###extracting only orestes clade
+
+orestes<- extract.clade(updated_tree,  node = 64)
+write.tree(orestes, file="orestes")
+plot(orestes)
+nodelabels(frame = "n") 
+
+dataelevation<-read.csv(file="orestes_trait.csv", header=TRUE, stringsAsFactors=F, row.names=1)
+head(dataelevation)
+dataelevation$Elevation
+#check whether all names in the dataset match a tip in the phylogeny
+check.orestestree <- name.check(orestes, dataelevation)
+check.orestestree
+
+dataelevation[match(orestes$tip.label, rownames(dataelevation)),]
+
+elevation<-as.vector(dataelevation$Elevation)
+names(elevation)<-rownames(dataelevation)
+
+SVCM<-contMap(orestes, elevation, plot=FALSE)
+SVCM<-setMap(SVCM,colors=c("blue","yellow"))  #blue #yellow
+figmatrix<-matrix(data=c(1,2), nrow=1, ncol=2)
+layout(figmatrix)
+plot(SVCM, fsize=0.7, legend=max(orestes$edge.length))
+title("", line=-1)
+
+#- ace (in APE) or FastANC (in Phytools) will reconstruct ancestral states for continuous characters.
+#Using ACE
+elevation.ace<-ace(elevation, orestes, type="continuous", model="BM")
+
+elevation.ace
+
+#using FastANC 
+elevation.fastAnc<-fastAnc(orestes, elevation, vars=TRUE, CI=TRUE, method="REML")
+
+
+##- $ace -> a vector of the ancestral states, with names equal to the internal node names
+#- $sigma2 -> the ML estimate of the Brownian motion rate parameter
+#- $CI95 -> the confidence interval around the ancestral states
+#- fastANC is similar, but gives $var instead of $sigma2, and thus the variances at each internal node
+
+plot(elevation.ace$CI95)
+
+###now I need to ask between members of the two big clades, I am gonna start between proserpens and saturninoi
+
+
+
+logelevation.fastANC<-fastAnc(orestes, elevation, vars=TRUE, CI=TRUE, method="REML")
+
+## then, find the number of the MRCA node
+first.mrca <- getMRCA(orestes, c("MZUA726", "MECN12232"))
+first.mrca<-toString((first.mrca)) ## need this to be a string
+
+print(logelevation.fastANC$ace[first.mrca])
+print(logelevation.fastANC$CI95[first.mrca,])
+
+####ancestral state for clade one
+second.mrca <- getMRCA(orestes, c("MZUA726", "MUTPL403"))
+second.mrca<-toString((second.mrca)) ## need this to be a string
+
+print(logelevation.fastANC$ace[second.mrca])
+print(logelevation.fastANC$CI95[second.mrca,])
+
+####ancestral state for clade two
+third.mrca <- getMRCA(orestes, c("QCAZ56444", "MZUA2426"))
+third.mrca<-toString((third.mrca)) ## need this to be a string
+
+print(logelevation.fastANC$ace[third.mrca])
+print(logelevation.fastANC$CI95[third.mrca,])
+
+
+
+plot(orestes)
+nodelabels(frame = "n")  
+
+######What about visualizing uncertainty in the reconstruction?
+
+figmatrix<-matrix(data=c(1,2), nrow=1, ncol=2)
+layout(figmatrix)
+fancyTree(orestes, type="phenogram95", x=elevation, fsize=0.8)
+title("Average elevation")
+
+
+###stimated vs true states
+x<-fastBM(orestes,internal=TRUE)
+a<-x[as.character(1:orestes$Nnode+Ntip(orestes))]
+a<-x[as.character(1:orestes$Nnode+Ntip(orestes))]
+x<-x[orestes$tip.label]
+fit<-fastAnc(orestes,x,CI=TRUE)
+fit
+par(mar=c(5,6,4,2))
+plot(a,fit$ace,xlab="true states",ylab="estimated states")
+lines(range(c(x,a)),range(c(x,a)),lty="dashed",col="red") ## 1:1 line
+
+# this is one of many ways to simulate a BM character. 
+BMcharacter.orestes <- sim.char(orestes, 0.2, model="BM", root=20)
+# check to make sure that the tip names match the rownames, in order
+identical(orestes$tip.label, rownames(BMcharacter.orestes)) 
+
+#Calculating the Phylogenetic Signal of the Simulated BM Data
+
+## test whether the simulated data fits the expectation of Brownian motion
+
+
+BMcharacter.orestes.vector<-as.vector(BMcharacter.orestes)
+names(BMcharacter.orestes.vector)<-rownames(BMcharacter.orestes)
+BMcharacter.orestes.lambda <- phylosig(orestes, BMcharacter.orestes.vector, method="lambda", test=TRUE)
+BMcharacter.orestes.K <- phylosig(orestes, BMcharacter.orestes.vector, method="K", test=TRUE)
+print(paste0("estimate of lambda = ", BMcharacter.orestes.lambda$lambda), quote=FALSE)
+print(paste0("P value for likelihood ratio test = ", BMcharacter.orestes.lambda$P), quote=FALSE)
+print(paste0("estimate of K = ", BMcharacter.orestes.K$K), quote=FALSE)
+print(paste0("P value for randomization test = ", BMcharacter.orestes.K$P), quote=FALSE)
+
+#What happens if I randomize the data on the tree?
+
+randomcharacter.orestes <- sample(BMcharacter.orestes)
+names(randomcharacter.orestes )<-row.names(BMcharacter.orestes)
+randomcharacter.orestes.lambda <- phylosig(orestes, randomcharacter.orestes, method="lambda", test=TRUE)
+randomcharacter.orestes.K <- phylosig(orestes, randomcharacter.orestes, method="K", test=TRUE)
+print(paste0("estimate of lambda = ", randomcharacter.orestes.lambda$lambda), quote=FALSE)
+print(paste0("P value for likelihood ratio test  = ", randomcharacter.orestes.lambda$P), quote=FALSE)
+print(paste0("estimate of K = ", randomcharacter.orestes.K$K), quote=FALSE)
+print(paste0("P value for randomization test = ", randomcharacter.orestes.K$P), quote=FALSE)
+
+#What do ancestral state reconstructions of the BM character, and the scrambled character look like side-by-side?
+BMCM<-contMap(orestes,BMcharacter.orestes[,,1], plot=FALSE)
+BMCM<-setMap(BMCM,colors=c("blue","yellow"))
+RDCM<-contMap(orestes,randomcharacter.orestes, plot=FALSE)
+RDCM<-setMap(RDCM,colors=c("blue","yellow"))
+figmatrix<-matrix(data=c(1,2), nrow=1, ncol=2)
+par(mar=c(2,2,8,0))
+layout(figmatrix)
+plot(BMCM,legend=max(orestes$edge.length), fsize=0.5)
+title("BM Character", line=-1)
+plot(RDCM,legend=max(orestes$edge.length), fsize=0.5)
+title("Random Character", line=-1)
+
+#which is  the phylogenetic signal in average elevation among orestes clades
+
+altitude<-dataelevation$Elevation
+names(altitude)<-rownames(dataelevation)
+
+altitude.lambda<-phylosig(orestes, altitude, method="lambda", test=TRUE)
+altitude.K <- phylosig(orestes, altitude, method="K", nsim=1000, test=TRUE)
+
+#Are the K values within the expectation of a BM process?
+
+X<-fastBM(orestes,nsim=1000)
+K<-apply(X,2,phylosig,tree=orestes)
+quantile(K,c(0.05,0.95))
+
+######models with elevation
+
+dat<-read.csv(file="matrix_elevation.csv", header=TRUE, stringsAsFactors=F, row.names=1)
+str(dat)
+orestes$node.label
+
+
+
+OUMVA<- OUwie(SVCM, dat, model="OUMVA", simmap.tree=TRUE, root.station=TRUE, diagn=T)
+class(dataelevation)
+
+sinmap_orestes<-make.simmap(elevation.ace, elevation, model="SYM", nsim=100)
+
+######
+
+recon <- ace(x = treeWData$data[,8], phy = treeWData$phy, 
+             type = "continuous", method = "GLS", 
+             corStruct = corBrownian(value=1, treeWData$phy));
+
+
+
+#############MAPPING THE HAND ratio
+
+hand<-as.vector(dataelevation$hand)
+names(hand)<-rownames(dataelevation)
+
+
+SVCM<-contMap(orestes, hand, plot=FALSE)
+SVCM<-setMap(SVCM,colors=c("blue","green"))  #blue #yellow
+figmatrix<-matrix(data=c(1,1), nrow=1, ncol=2)
+layout(figmatrix)
+plot(SVCM, fsize=0.7, legend=max(orestes$edge.length))
+title("", line=-1)
+
+#- ace (in APE) or FastANC (in Phytools) will reconstruct ancestral states for continuous characters.
+#Using ACE
+elevation.ace<-ace(hand, orestes, type="continuous", model="BM")
+
+elevation.ace
+
+#using FastANC 
+elevation.fastAnc<-fastAnc(orestes, hand, vars=TRUE, CI=TRUE, method="REML")
+
+
+##- $ace -> a vector of the ancestral states, with names equal to the internal node names
+#- $sigma2 -> the ML estimate of the Brownian motion rate parameter
+#- $CI95 -> the confidence interval around the ancestral states
+#- fastANC is similar, but gives $var instead of $sigma2, and thus the variances at each internal node
+
+plot(elevation.ace$CI95)
+
+###now I need to ask between members of the two big clades, I am gonna start between proserpens and saturninoi
+
+
+
+logelevation.fastANC<-fastAnc(orestes, hand, vars=TRUE, CI=TRUE, method="REML")
+
+## then, find the number of the MRCA node
+first.mrca <- getMRCA(orestes, c("MZUA726", "MECN12232"))
+first.mrca<-toString((first.mrca)) ## need this to be a string
+
+print(logelevation.fastANC$ace[first.mrca])
+print(logelevation.fastANC$CI95[first.mrca,])
+
+####ancestral state for clade one
+second.mrca <- getMRCA(orestes, c("MZUA726", "MUTPL403"))
+second.mrca<-toString((second.mrca)) ## need this to be a string
+
+print(logelevation.fastANC$ace[second.mrca])
+print(logelevation.fastANC$CI95[second.mrca,])
+
+####ancestral state for clade two
+third.mrca <- getMRCA(orestes, c("QCAZ56444", "MZUA2426"))
+third.mrca<-toString((third.mrca)) ## need this to be a string
+
+print(logelevation.fastANC$ace[third.mrca])
+print(logelevation.fastANC$CI95[third.mrca,])
+
+
+
+plot(orestes)
+nodelabels(frame = "n")  
+
+######What about visualizing uncertainty in the reconstruction?
+
+figmatrix<-matrix(data=c(1,2), nrow=1, ncol=2)
+layout(figmatrix)
+fancyTree(orestes, type="phenogram95", x=elevation, fsize=0.8)
+title("Average elevation")
+
+
+###stimated vs true states
+x<-fastBM(orestes,internal=TRUE)
+a<-x[as.character(1:orestes$Nnode+Ntip(orestes))]
+a<-x[as.character(1:orestes$Nnode+Ntip(orestes))]
+x<-x[orestes$tip.label]
+fit<-fastAnc(orestes,x,CI=TRUE)
+fit
+par(mar=c(5,6,4,2))
+plot(a,fit$ace,xlab="true states",ylab="estimated states")
+lines(range(c(x,a)),range(c(x,a)),lty="dashed",col="red") ## 1:1 line
+
+# this is one of many ways to simulate a BM character. 
+BMcharacter.orestes <- sim.char(orestes, 0.2, model="BM", root=20)
+# check to make sure that the tip names match the rownames, in order
+identical(orestes$tip.label, rownames(BMcharacter.orestes)) 
+
+#Calculating the Phylogenetic Signal of the Simulated BM Data
+
+## test whether the simulated data fits the expectation of Brownian motion
+
+
+BMcharacter.orestes.vector<-as.vector(BMcharacter.orestes)
+names(BMcharacter.orestes.vector)<-rownames(BMcharacter.orestes)
+BMcharacter.orestes.lambda <- phylosig(orestes, BMcharacter.orestes.vector, method="lambda", test=TRUE)
+BMcharacter.orestes.K <- phylosig(orestes, BMcharacter.orestes.vector, method="K", test=TRUE)
+print(paste0("estimate of lambda = ", BMcharacter.orestes.lambda$lambda), quote=FALSE)
+print(paste0("P value for likelihood ratio test = ", BMcharacter.orestes.lambda$P), quote=FALSE)
+print(paste0("estimate of K = ", BMcharacter.orestes.K$K), quote=FALSE)
+print(paste0("P value for randomization test = ", BMcharacter.orestes.K$P), quote=FALSE)
+
+#What happens if I randomize the data on the tree?
+
+randomcharacter.orestes <- sample(BMcharacter.orestes)
+names(randomcharacter.orestes )<-row.names(BMcharacter.orestes)
+randomcharacter.orestes.lambda <- phylosig(orestes, randomcharacter.orestes, method="lambda", test=TRUE)
+randomcharacter.orestes.K <- phylosig(orestes, randomcharacter.orestes, method="K", test=TRUE)
+print(paste0("estimate of lambda = ", randomcharacter.orestes.lambda$lambda), quote=FALSE)
+print(paste0("P value for likelihood ratio test  = ", randomcharacter.orestes.lambda$P), quote=FALSE)
+print(paste0("estimate of K = ", randomcharacter.orestes.K$K), quote=FALSE)
+print(paste0("P value for randomization test = ", randomcharacter.orestes.K$P), quote=FALSE)
+
+#What do ancestral state reconstructions of the BM character, and the scrambled character look like side-by-side?
+BMCM<-contMap(orestes,BMcharacter.orestes[,,1], plot=FALSE)
+BMCM<-setMap(BMCM,colors=c("blue","yellow"))
+RDCM<-contMap(orestes,randomcharacter.orestes, plot=FALSE)
+RDCM<-setMap(RDCM,colors=c("blue","yellow"))
+figmatrix<-matrix(data=c(1,2), nrow=1, ncol=2)
+par(mar=c(2,2,8,0))
+layout(figmatrix)
+plot(BMCM,legend=max(orestes$edge.length), fsize=0.5)
+title("BM Character", line=-1)
+plot(RDCM,legend=max(orestes$edge.length), fsize=0.5)
+title("Random Character", line=-1)
+
+#which is  the phylogenetic signal in average elevation among orestes clades
+
+altitude<-dataelevation$Elevation
+names(altitude)<-rownames(dataelevation)
+
+altitude.lambda<-phylosig(orestes, hand, method="lambda", test=TRUE)
+altitude.K <- phylosig(orestes, hand, method="K", nsim=1000, test=TRUE)
+
+#Are the K values within the expectation of a BM process?
+
+X<-fastBM(orestes,nsim=1000)
+K<-apply(X,2,phylosig,tree=orestes)
+quantile(K,c(0.05,0.95))
+
+
+##### stochastic character mapping ################3
+
+poly.data2<-read.csv(file="ecosistems_orestes_new.csv", header=TRUE, stringsAsFactors=F, row.names=1)
+str(poly.data2)
+poly.data2$ecosistem<-as.factor(poly.data2$ecosistem)
+
+y<-setNames(poly.data2[,1],rownames(poly.data2))
+y
+
+
+y<-setNames(as.character(y),names(y))
+ii<-which(y=="A+D")
+y[sample(ii,round(0.5*length(ii)))]<-"D+A"
+ii<-which(y=="B+D")
+y[sample(ii,round(0.5*length(ii)))]<-"D+B"
+ii<-which(y=="C+D")
+y[sample(ii,round(0.5*length(ii)))]<-"D+C"
+ii<-which(y=="A+C")
+y[sample(ii,round(0.5*length(ii)))]<-"C+A"
+y<-as.factor(y)
+y
+
+
+fit<-fitpolyMk(orestes,y,model="SYM",ordered=TRUE)
+plot(fit,lwd=2)
+
+fit$index.matrix
+fit$data
+
+
+plotTree(poly.tree,ftype="off",lwd=1)
+X<-strsplit(setNames(as.character(y),names(y)),"+",fixed=TRUE)
+pies<-matrix(0,Ntip(poly.tree),4,dimnames=list(poly.tree$tip.label,
+                                               c("A","B","C","D")))
+for(i in 1:Ntip(poly.tree)) 
+  pies[poly.tree$tip.label[i],X[[poly.tree$tip.label[i]]]]<-
+  rep(1/length(X[[poly.tree$tip.label[i]]]),
+      length(X[[poly.tree$tip.label[i]]]))
+tiplabels(pie=pies,piecol=c("black","yellow","red","blue"),
+          cex=0.35)
+legend(x="topright",legend=c("A","B","C","D"),pt.cex=0.5,pch=21,
+       pt.bg=c("black","yellow","red","blue"))
+
+x<-dat[,1]
+
+simmap.trees<-make.simmap(orestes, dat$x, model = "ER", nsim = 100)
+
+##########TESTING FOR CORRELATION ############33
+
+oresteslm<-lm(dataelevation$hand ~ dataelevation$Elevation) #  ordinary regression
+cororestes<-cor.test(dataelevation$hand, dataelevation$Elevation) ## correlation test shows they are correlated
+coeff<-paste("Correlation coefficient = ", round(cororestes$estimate, digits=3), sep = " ")
+orestessp<-paste("P-value = ", round(cororestes$p.value, digits=3), sep = " ")
+par(mar=c(4,5,3,2))
+plot(dataelevation$Elevation, dataelevation$hand, xlab="Elevation", ylab="hand", pch=16) # they certainly look correlated
+abline(oresteslm)
+title("Ordinary Least Squares Regression")
+text(x=4.0, y=3.5, labels=(coeff))
+text(x=4.0, y=3.3, labels=(orestessp))
+
+
+#Here's how to perform a phylogenetic independent contrasts (PIC) analysis
+#========================================================
+
+elevation.pic<-pic(dataelevation$Elevation, orestes) ## contrasts for first variable
+hand.pic<-pic(dataelevation$hand, orestes) ## contrasts for second variable
+cor.test(elevation.pic,hand.pic) ## correlation test 
+oresteslm.pic<-lm(hand.pic ~ elevation.pic - 1) #  regression through the origin
+par(mar=c(4,5,3,2))
+plot(elevation.pic, hand.pic, xlab="Elevation", ylab="Hand", pch=16)
+abline(oresteslm.pic)
+title("Phylogenetic independent contrasts")#visualization of the regression
+```
+
+
+ 

@@ -1,0 +1,26 @@
+--- 
+title: "Diversification of direct-developing terrestrial frogs in the tropical Andes of Ecuador"
+author: "Veronica L. Urgiles"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+---
+
+# Introduction
+
+The extraordinary biodiversity in the Andean mountain regions is influenced by the high environmental and topographic heterogeneity in these areas. Landscape features can act as barriers for dispersal whereas environmental gradients can promote adaptive differentiation across ecotones.  Small terrestrial vertebrates such as amphibians are likely to be differentiated by a combination of these two processes due to their low vagility and strong associations with specific habitat conditions. However, our understanding of the significance of these two processes in most eco-morphologically distinct groups of Andean amphibians is still limited. In the highlands of the Ecuadorean Andes, direct-developing terrestrial frogs of the genus *Pristimantis* represent 40% of total amphibian diversity. However, speciation and diversification of *Pristimantis* from highland ecosystems remains poorly understood, particularly due to the limited molecular approaches employed, insufficient sampling, and conflicting taxonomic resolution. In this study, I explore the diversity and molecular and phenotypic diversification of the *Pristimantis orestes* species complex, a morphologically diverse group in the southern Andes of Ecuador. Here, I generate the most complete phylogeny of the group to date and define species using a combination of delimitation methods.  Then, I explore associations with elevational gradients and hand morphology to identify patterns of diversification in the group. 
+
+
+In Chapter \@ref(pristis), I provide a brief overview of the project, and a detail explanation of the available data and database construction.
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
