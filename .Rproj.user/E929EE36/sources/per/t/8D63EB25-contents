@@ -1,0 +1,70 @@
+library(ggplot2)
+dataelevation<-read.csv(file="orestes_trait.csv", header=TRUE, stringsAsFactors=F)
+head(dataelevation)
+
+elevation <-
+  c(summary(dataelevation$Elevation)[2],
+  summary(dataelevation$Elevation)[5])
+
+dataelevation <- dataelevation %>% 
+  mutate(altitude2 = ifelse(Elevation < elevation[1], "low", 
+                            ifelse(Elevation > elevation[1] & Elevation < elevation[2], "medium", "high")))
+dataelevation %>% View()
+
+hand<- boxplot(dataelevation$Elevation ~ dataelevation$Species)
+
+altitude<- boxplot(dataelevation$hand ~ dataelevation$altitude)
+
+altitude<- boxplot(dataelevation$hand ~ dataelevation$)
+
+require(methods)
+
+p <- ggplot(dataelevation, aes(x = Elevation, y = hand, color=altitude)) + geom_point() +
+  stat_smooth(method = "loess", formula = y ~ x, size = 1)
+print(p)
+
+boxplot(dataelevation$Elevation)
+
+ggplot(dataelevation) +
+  geom_boxplot(aes(x=Elevation)) +
+  geom_point(aes(x=Elevation, y=Species))
+
+summary(dataelevation$Elevation)
+
+
+ggplot(dataelevation) +
+  geom_boxplot(aes(x=hand, y=altitude)) +
+  geom_point(aes(x=Elevation, y=Species))
+
+
+
+
+medium<- dataelevation[dataelevation$altitude=="medium",]
+high<- dataelevation[dataelevation$altitude=="high",]
+
+write.table(dataelevation, file = "matrix_elevation_05_16.txt")
+
+library(gapminder)
+medium<-read.table(file="medium.txt", header=TRUE)
+str(medium)
+dataelevation %>% 
+  filter(altitude2%in% c("high","medium")) %>%
+  ggplot(aes(x=altitude2, y=hand, fill=factor(clade))) +
+  geom_boxplot() 
+
+d<-dataelevation %>% 
+  filter(altitude2%in% c("high","medium"))
+
+da<-dataelevation %>% 
+  filter(clade%in% c("B"))
+
+caldea<-anova<-aov(hand~altitude2,  data=da)
+summary(caldea)
+
+ggplot(dataelevation) +
+  geom_boxplot(aes(x=microhabitat, y=hand, color=microhabitat))
+
+
+
+caldea<-anova<-aov(hand~microhabitat,  data=dataelevation)
+summary(caldea)

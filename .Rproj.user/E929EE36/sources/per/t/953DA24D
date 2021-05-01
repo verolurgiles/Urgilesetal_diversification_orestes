@@ -1,0 +1,27 @@
+{
+    "id": "953DA24D",
+    "path": "~/comp_tools/pristimantis/test_script.R",
+    "project_path": "test_script.R",
+    "type": "r_source",
+    "hash": "1731973574",
+    "contents": "",
+    "dirty": false,
+    "created": 1615478565923.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "162,2",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1619841290,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1619841290817,
+    "read_only": false,
+    "read_only_alternatives": []
+}
